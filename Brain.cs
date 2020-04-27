@@ -62,7 +62,7 @@ public class Brain : MonoBehaviour
             h = dna.GetGene(1);
         }
 
-        this.transform.Translate(0, 0, v * 0.001f);
+        this.transform.Translate(0, 0, v * 0.0004f);
         this.transform.Rotate(0, h, 0);
         distanceTravelled = Vector3.Distance(startPosition, this.transform.position);
     }
